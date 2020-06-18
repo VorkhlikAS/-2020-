@@ -1,0 +1,6 @@
+C:\Users\Александр\source\repos\Задание 11\Задание 11\bin\Debug\Задание 11.exe.config
+C:\Users\Александр\source\repos\Задание 11\Задание 11\bin\Debug\Задание 11.exe
+C:\Users\Александр\source\repos\Задание 11\Задание 11\bin\Debug\Задание 11.pdb
+C:\Users\Александр\source\repos\Задание 11\Задание 11\obj\Debug\Задание 11.csprojAssemblyReference.cache
+C:\Users\Александр\source\repos\Задание 11\Задание 11\obj\Debug\Задание 11.exe
+C:\Users\Александр\source\repos\Задание 11\Задание 11\obj\Debug\Задание 11.pdb
