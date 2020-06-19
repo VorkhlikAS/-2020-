@@ -99,7 +99,7 @@ namespace Задание_9
                     case 2:
                         Console.WriteLine("Введите элемент");
                         int Delete = GetInt();
-                        if (Delete > 1) DeleteElem(ref Array, Delete);
+                        if (SearchFor(1,Delete, Array)!=0&&Delete>1) DeleteElem(ref Array, Delete);
                         else Console.WriteLine($"Нельзя удалить элемент {Delete}");
                         Console.WriteLine();
                         break;
@@ -114,12 +114,12 @@ namespace Задание_9
         }
         static int SearchFor(int number,int val, List a)
         {
-            if (a.value == val) return number;
-            else if (a == null)
+            
+            if (a == null)
             {
-                Console.WriteLine("Такого элемента нет");
                 return 0;
             }
+            else if (a.value == val) return number;
             else return SearchFor(number + 1, val, a.next);
         }
         static void DeleteElem(ref List Array, int val)
