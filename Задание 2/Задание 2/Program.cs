@@ -12,7 +12,7 @@ namespace Задание_2
         static void Main(string[] args)
         {
             int count = 1;
-            //string input = @"c:\temp\INPUT.txt", output = @"c:\temp\INPUT.txt";
+            //string input = @"c:\temp\INPUT.txt", output = @"c:\temp\OUTPUT.txt";
             string input = @"INPUT.txt", output = @"OUTPUT.txt";
             using (FileStream fs = new FileStream(input, FileMode.OpenOrCreate)) { }
             using (StreamReader reader = new StreamReader(input, Encoding.Default))
